@@ -5,9 +5,9 @@
 // Execute `rustlings hint macros3` or use the `hint` watch subcommand for a
 // hint.
 
-mod macros {
+// I AM NOT DONE
 
-    #[macro_export]
+mod macros {
     macro_rules! my_macro {
         () => {
             println!("Check out my macro!");

@@ -2712,6 +2712,33 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "jbouganim-parallel",
+      "name": "Josh Bouganim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/150748285?v=4",
+      "profile": "https://github.com/jbouganim-parallel",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "loshz",
+      "name": "Dan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3449337?v=4",
+      "profile": "https://loshz.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Selflocking",
+      "name": "YunShu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53544726?v=4",
+      "profile": "https://yunshu.site",
+      "contributions": [
+        "content"
+      ]
     }
   ],
   "contributorsPerLine": 8,

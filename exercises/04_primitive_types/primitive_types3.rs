@@ -5,10 +5,10 @@
 // Execute `rustlings hint primitive_types3` or use the `hint` watch subcommand
 // for a hint.
 
-const LENGTH: usize = 100;
+// I AM NOT DONE
 
 fn main() {
-    const a: [i32; 100] = [1; LENGTH];
+    let a = ???
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");

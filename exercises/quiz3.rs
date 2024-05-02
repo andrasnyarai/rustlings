@@ -16,37 +16,20 @@
 //
 // Execute `rustlings hint quiz3` or use the `hint` watch subcommand for a hint.
 
-use std::fmt::Display;
+// I AM NOT DONE
 
-pub struct ReportCard<T> {
-    pub grade: T,
+pub struct ReportCard {
+    pub grade: f32,
     pub student_name: String,
     pub student_age: u8,
 }
 
-// ---- V1
-// with a Trait defined
-
-trait Print {
-    fn print(&self) -> String;
-}
-
-impl <T: Display> Print for ReportCard<T> {
-     fn print(&self) -> String {
+impl ReportCard {
+    pub fn print(&self) -> String {
         format!("{} ({}) - achieved a grade of {}",
             &self.student_name, &self.student_age, &self.grade)
     }
 }
-
-// ---- V2
-// adding a print fn with impl to a struct
-
-// impl<T: Display> ReportCard<T> {
-//     pub fn print(&self) -> String {
-//         format!("{} ({}) - achieved a grade of {}",
-//             &self.student_name, &self.student_age, &self.grade)
-//     }
-// }
 
 #[cfg(test)]
 mod tests {
@@ -69,7 +52,7 @@ mod tests {
     fn generate_alphabetic_report_card() {
         // TODO: Make sure to change the grade here after you finish the exercise.
         let report_card = ReportCard {
-            grade: "A+",
+            grade: 2.1,
             student_name: "Gary Plotter".to_string(),
             student_age: 11,
         };

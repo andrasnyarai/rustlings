@@ -13,13 +13,10 @@
 //
 // No hints this time ;)
 
-fn calculate_price_of_apples(n: i64) -> i64 {
-  if n > 40 {
-     n * 1
-  } else {
-     n * 2
-  }
-}
+// I AM NOT DONE
+
+// Put your function here!
+// fn calculate_price_of_apples {
 
 // Don't modify this function!
 #[test]
